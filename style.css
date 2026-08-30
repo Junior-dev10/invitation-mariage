@@ -98,6 +98,64 @@ a {
   justify-content: center;
 }
 
+.address-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: min(540px, 100%);
+  margin: 30px auto 0;
+  padding: 22px 24px;
+  text-align: center;
+  color: var(--white);
+  line-height: 1.6;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 18px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 12px 35px rgba(20, 16, 12, 0.14);
+}
+
+.address-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #f4e2b0;
+}
+
+.address-value {
+  font-size: 1.08rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.98);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.map-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.map-embed {
+  max-width: 760px;
+  margin: 28px auto 0;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 14px 35px rgba(27, 20, 13, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.map-embed iframe {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+  border: 0;
+}
+
 .eyebrow {
   color: #a88548; /* Amélioré pour meilleur contraste sur petits textes */
   font-size: 0.72rem;
